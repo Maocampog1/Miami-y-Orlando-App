@@ -299,3 +299,21 @@ li.done .check { background: var(--btn); border-color: transparent; }
 @media (max-width: 380px) {
   .grid2 { grid-template-columns: 1fr; }
 }
+
+/* ---------- Wishlist extras ---------- */
+.small-chip { font-size: 12px; padding: 6px 12px; }
+.chip-count {
+  display: inline-grid; place-items: center; min-width: 20px; height: 20px; margin-left: 6px;
+  border-radius: 999px; background: var(--pink-soft); color: var(--plum); font-size: 11px; font-weight: 900;
+}
+.chip.active .chip-count { background: rgba(255,255,255,.75); }
+.badge { flex: none; font-size: 11px; font-weight: 900; padding: 3px 10px; border-radius: 999px; }
+.badge-mama { background: var(--pink-soft); color: #c2417f; }
+.badge-maria { background: var(--lilac-soft); color: var(--plum-2); }
+.badge-regalo { background: var(--blue-soft); color: #2f6fa8; }
+.nota-item { font-size: 13px; margin-top: 4px; color: var(--ink); background: var(--bg); border-radius: 10px; padding: 6px 10px; }
+.precios { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 8px; }
+.precios input { padding: 8px 10px; font-size: 14px; }
+.item-actions { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-top: 8px; }
+.item-actions select { width: auto; max-width: 70%; padding: 6px 10px; font-size: 12px; }
+.btn-light { background: var(--lilac-soft); color: var(--plum); box-shadow: none; }
